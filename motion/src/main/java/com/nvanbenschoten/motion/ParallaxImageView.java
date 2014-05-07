@@ -93,6 +93,7 @@ public class ParallaxImageView extends ImageView implements SensorEventListener 
         post(new Runnable() {
             @Override
             public void run() {
+                //code to configure the matrix
                 configureMatrix();
             }
         });
